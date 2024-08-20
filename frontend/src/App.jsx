@@ -6,12 +6,12 @@ import LoginPage from "./pages/LoginPage";
 import EmailVerificationPage from "./pages/EmailVerificationPage";
 import DashboardPage from "./pages/DashboardPage";
 import ForgotPasswordPage from "./pages/ForgotPasswordPage";
-import ResetPasswordPage from "./pages/ResetPasswordPage";
+import ResetPasswordPage from "./pages/ResetPasswordPage.jsx";
 
 import LoadingSpinner from "./components/LoadingSpinner";
 
 import { Toaster } from "react-hot-toast";
-import { useAuthStore } from "./store/authStore";
+import { useAuthStore } from "./store/authStore.jsx";
 import { useEffect } from "react";
 
 // protect routes that require authentication
